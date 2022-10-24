@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 'Devlog Star Eater #1'
 excerpt_separator: <!--more-->
 ---

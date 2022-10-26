@@ -31,7 +31,7 @@ article {
     border-radius: 2%;
     display: block;
     margin: auto;
-    padding: 4%;
+    padding: 2%;
 }
 
 .article_date {
@@ -56,18 +56,30 @@ h1, h2 {
     //border: #111;
 }
 
+h2 {
+    line-height: 1.5;
+}
+
 h3 {
     font-size: 2.5vw;
-    //-webkit-text-stroke-width: 0.1vw;
-    //-webkit-text-stroke-color: black;
+    //color: goldenrod;
+    //-webkit-text-stroke-width: 1px;
+    //-webkit-text-stroke-color: goldenrod;
     z-index: 3;
     position: sticky; top: 2.5vw; padding-left: 10%;
     display: inline-block;
     text-overflow: ellipsis;
     max-width: 30vw;
-    overflow: hidden;
+    overflow-x: hidden;
     white-space: nowrap;
 }
+
+@media screen and (max-width: 900px) {
+    h3 {
+       font-size: 22px;
+    }
+  }
+
 
 hr {
     border: 1px solid rgb(110, 110, 110);
@@ -89,4 +101,5 @@ video {
     //height: 100px;
     width: -webkit-fill-available;
     max-width: 50%;
+    padding: 2%;
 }

@@ -43,7 +43,7 @@ article {
     font-size: 1.5vw;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     .article_date {
        font-size: 12px;
     }
@@ -63,6 +63,10 @@ h3 {
     z-index: 3;
     position: sticky; top: 2.5vw; padding-left: 10%;
     display: inline-block;
+    text-overflow: ellipsis;
+    max-width: 30vw;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 hr {

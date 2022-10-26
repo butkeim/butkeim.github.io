@@ -40,8 +40,14 @@ article {
     float: right;
     padding-right: 10%;
     margin-top: 3vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
+
+@media screen and (min-width: 1200px) {
+    .article_date {
+       font-size: 12px;
+    }
+  }
 
 h1, h2 {
     text-align: center;

@@ -3,10 +3,10 @@ layout: default
 title: Home, Sweet Home
 ---
 
-<ul style="margin: 0px; padding: 0px; align-content: center; padding-left: 10%; padding-right: 10%;">
+<ul style="display: inline; margin: auto; align-content: center; max-width: 800px;">
     {% for post in site.posts %}
-    <hr style="border: 1px solid rgb(110, 110, 110);">
-        <a href="{{ post.url }}" style="padding-left: 10%;padding-right: 10%;display: block;">
+    <hr>
+        <a href="{{ post.url }}" style="display: block;margin: auto;max-width: 600px;">
             <h2>{{ post.title }}</h2>
             {{ post.excerpt }}
         </a>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Devlog Star Eater #1'
+title: 'Car Paint Shader: Thin-Film Interference'
 excerpt_separator: <!--more-->
 ---
 

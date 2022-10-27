@@ -3,14 +3,16 @@ layout: default
 title: Home, Sweet Home
 ---
 
-<ul style="display: inline; margin: auto; align-content: center; max-width: 800px;">
+<div class="homepage">
+
     {% for post in site.posts %}
-    <hr>
-        <a href="{{ post.url }}" style="display: flex;margin: auto;max-width: 600px;">
+        <a href="{{ post.url }}">
             <h2>{{ post.title }}</h2>
-            <div>
-                {{ post.excerpt }}
-            </div>
-        </a>
+                <div>
+                    {{ post.excerpt }}
+                </div>
+            </a>
+        <hr>
     {% endfor %}
-</ul>
+
+</div>

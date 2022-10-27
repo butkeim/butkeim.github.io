@@ -1,14 +1,15 @@
 ---
 layout: post
-title: 'Devlog Star Eater #1'
+title: 'Car Paint Shader: Thin-Film Interference'
 excerpt_separator: <!--more-->
 ---
 
-<video autoplay muted loop><source src="/assets/webm/ref.webm" type="video/webm"></video>
+{% include video.html file="/assets/webm/ref_2.webm" %}
 
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
 <!--more-->
+
 In some countries, bananas used for cooking may be called "plantains",
 distinguishing them from dessert bananas. The fruit is variable in size, color,
 and firmness, but is usually elongated and curved, with soft flesh rich in

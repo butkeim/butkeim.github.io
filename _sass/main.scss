@@ -106,7 +106,13 @@ video {
 .homepage {
     margin: auto;
     width: 100%;
-    max-width: 650px;
+    max-width: 800px;
+}
+
+.homepage p{
+    margin: auto;
+    margin-top: 1vw;
+    max-width: 700px;
 }
 
 .homepage video {

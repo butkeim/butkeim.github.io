@@ -4,7 +4,8 @@ title: 'Car Paint Shader: Thin-Film Interference'
 excerpt_separator: <!--more-->
 ---
 
-{% include video.html file="/assets/webm/ref_2.webm" %}
+{% include video.html file="/assets/webm/ref_2.mp4" %}
+
 
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
